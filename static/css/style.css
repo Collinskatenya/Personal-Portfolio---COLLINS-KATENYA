@@ -1,0 +1,58 @@
+/* Blue Navbar Background */
+.custom-bg {
+  background-color: #003399 !important;
+}
+
+/* Nav spacing + styling */
+.navbar .nav-link {
+  text-decoration: none !important;
+  padding: 0.75rem 1rem;
+  font-weight: 500;
+  transition: color 0.25s ease;
+}
+
+/* Gold Hover Effect */
+.navbar .nav-link:hover {
+  color: gold !important;
+}
+
+/* Dropdown Hover */
+.dropdown-menu .dropdown-item:hover {
+  background-color: gold;
+  color: black !important;
+}
+
+/* Tighter spacing for social icons */
+.social-icons a {
+  font-size: 1.3rem;
+  margin-right: 4px;    /* tighter */
+  padding: 0.2rem !important; /* minimal padding */
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+
+
+/* Align everything vertically */
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Extra space before theme icon */
+.theme-section {
+  margin-left: 50px;
+}
+
+/* Theme icon size */
+.theme-icon {
+  font-size: 1.4rem;
+  padding: 0.75rem;
+}
+
+/* Cursor for dropdown items */
+.dropdown-item {
+  cursor: pointer;
+}
