@@ -22,18 +22,20 @@
   color: black !important;
 }
 
-/* Tighter spacing for social icons */
+/* Social Icons - smallest spacing */
 .social-icons a {
-  font-size: 1.3rem;
-  margin-right: 4px;    /* tighter */
-  padding: 0.2rem !important; /* minimal padding */
+    padding: 0 2px !important;    /* VERY close together */
+    margin: 0 !important;
+}
+
+.social-icons i {
+    font-size: 0.9rem !important; /* small icons */
+    line-height: 1;               /* tighten vertical spacing */
 }
 
 .social-icons a:last-child {
   margin-right: 0;
 }
-
-
 
 /* Align everything vertically */
 .navbar-nav .nav-item {
