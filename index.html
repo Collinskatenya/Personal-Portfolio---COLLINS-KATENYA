@@ -14,128 +14,172 @@
     <!-- Custom Navbar CSS -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body data-theme="light">
 
-<header>
-<nav class="navbar navbar-expand-lg custom-bg navbar-dark py-2">
+<!-- ===== THIN TOP NAVBAR ===== -->
+<nav class="thin-navbar">
+    <div class="container-fluid">
+        <!-- Brand Section (Logo + Motto) -->
+        <div class="brand-section">
+            <img src="static/images/Nav-profile.JPG" alt="CK Logo" class="thin-logo">
+            <p class="thin-motto">Learn. Adapt. Innovate.</p>
+        </div>
 
-  <div class="container-fluid">
+        <!-- Right Section - Social Icons & Theme -->
+        <div class="right-section">
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://github.com/Collinskatenya" target="_blank" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/collinskatenya" target="_blank" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/collins_.katenya/" target="_blank" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100090779629160" target="_blank" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.tiktok.com/@collins_katenya?lang=en" target="_blank" aria-label="TikTok">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+                <a href="https://x.com/Katenya14" target="_blank" aria-label="Twitter">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://threads.net/collinskatenya" target="_blank" aria-label="Threads">
+                    <i class="bi bi-threads"></i>
+                </a>
+                <a href="https://www.youtube.com/@CollinsKatenya" target="_blank" aria-label="YouTube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
 
-    <!-- BRAND (Profile photo + Motto) -->
-    <a class="navbar-brand d-flex align-items-center" href="#home">
-      <img src="static/images/Nav-profile.JPG" alt="CK Logo" class="nav-logo me-2">
-
-      <div class="d-flex flex-column lh-1">
-        <small class="brand-motto">Learn. Adapt. Innovate.</small>
-      </div>
-    </a>
-
-    <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navigation Items -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-
-      <ul class="navbar-nav ms-auto align-items-lg-center">
-
-        <!-- Home -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="bi bi-house-door me-1"></i>Home
-          </a>
-        </li>
-
-        <!-- About -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="bi bi-person me-1"></i>About
-          </a>
-        </li>
-
-        <!-- Services -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown"
-             role="button" data-bs-toggle="dropdown">
-            <i class="bi bi-tools me-1"></i>Services
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Information Technology</a></li>
-            <li><a class="dropdown-item" href="#">Interior Design</a></li>
-            <li><a class="dropdown-item" href="#">Multimedia Production</a></li>
-          </ul>
-        </li>
-
-        <!-- Portfolio -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown"
-             role="button" data-bs-toggle="dropdown">
-            <i class="bi bi-briefcase me-1"></i>Portfolio
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">IT Projects</a></li>
-            <li><a class="dropdown-item" href="#">Interior Design Works</a></li>
-            <li><a class="dropdown-item" href="#">Media & Film Projects</a></li>
-          </ul>
-        </li>
-
-        <!-- Contact -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="bi bi-envelope me-1"></i>Contact
-          </a>
-        </li>
-
-        <!-- Social Media Icons -->
-        <li class="nav-item ms-lg-4 d-flex align-items-center social-icons">
-
-          <a href="https://www.instagram.com/collins_.katenya/" class="nav-link" target="_blank">
-            <i class="bi bi-instagram"></i>
-          </a>
-
-          <a href="https://www.facebook.com/profile.php?id=100090779629160" class="nav-link" target="_blank">
-            <i class="bi bi-facebook"></i>
-          </a>
-
-          <a href="https://x.com/Katenya14" class="nav-link" target="_blank">
-            <i class="bi bi-twitter-x"></i>
-          </a>
-
-          <a href="https://www.tiktok.com/@collins_katenya?lang=en" class="nav-link" target="_blank">
-            <i class="bi bi-tiktok"></i>
-          </a>
-
-          <a href="https://github.com/Collinskatenya" class="nav-link" target="_blank">
-            <i class="bi bi-github"></i>
-          </a>
-
-          <a href="https://www.youtube.com/@CollinsKatenya" class="nav-link" target="_blank">
-            <i class="bi bi-youtube"></i>
-          </a>
-
-        </li>
-
-        <!-- Theme Selector -->
-        <li class="nav-item dropdown theme-section">
-          <a class="nav-link dropdown-toggle theme-icon" href="#" id="themeDropdown"
-             role="button" data-bs-toggle="dropdown">
-            <i class="bi bi-sun"></i>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item theme-option" data-theme="light"><i class="bi bi-sun me-2"></i>Light</a></li>
-            <li><a class="dropdown-item theme-option" data-theme="dark"><i class="bi bi-moon-stars me-2"></i>Dark</a></li>
-            <li><a class="dropdown-item theme-option" data-theme="auto"><i class="bi bi-circle-half me-2"></i>Auto</a></li>
-          </ul>
-        </li>
-
-      </ul>
-
+            <!-- Theme Selector -->
+            <div class="theme-section dropdown">
+                <a class="theme-icon dropdown-toggle" href="#" id="themeDropdown" role="button" 
+                   data-bs-toggle="dropdown" aria-expanded="false" aria-label="Theme selector">
+                    <i class="bi bi-sun-fill"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown">
+                    <li><a class="dropdown-item theme-option" href="#" data-theme="light">
+                        <i class="bi bi-sun me-2"></i>Light Mode
+                    </a></li>
+                    <li><a class="dropdown-item theme-option" href="#" data-theme="dark">
+                        <i class="bi bi-moon-stars me-2"></i>Dark Mode
+                    </a></li>
+                    <li><a class="dropdown-item theme-option" href="#" data-theme="auto">
+                        <i class="bi bi-circle-half me-2"></i>Auto
+                    </a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
+
+<!-- ===== MAIN NAVBAR ===== -->
+<header>
+    <nav class="navbar navbar-expand-lg main-navbar navbar-dark">
+        <div class="container-fluid">
+            <!-- Name Brand - Left Side -->
+            <div class="name-brand">
+                <span class="brand-name">COLLINS KATENYA</span>
+            </div>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Items - All on Right Side -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            <i class="bi bi-house-door me-1"></i>Home
+                        </a>
+                    </li>
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-person me-1"></i>About
+                        </a>
+                    </li>
+
+                    <!-- Portfolio -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown"
+                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-briefcase me-1"></i>Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                            <li><a class="dropdown-item" href="#it-projects">
+                                <i class="bi bi-laptop me-2"></i>IT Projects
+                            </a></li>
+                            <li><a class="dropdown-item" href="#design-works">
+                                <i class="bi bi-house-door me-2"></i>Interior Design Works
+                            </a></li>
+                            <li><a class="dropdown-item" href="#media-projects">
+                                <i class="bi bi-film me-2"></i>Media & Film Projects
+                            </a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Services -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle services-highlight" href="#" 
+                           id="servicesDropdown" role="button" data-bs-toggle="dropdown" 
+                           aria-expanded="false">
+                            <i class="bi bi-tools me-1"></i>Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="#it-services">
+                                <i class="bi bi-code-slash me-2"></i>Information Technology
+                            </a></li>
+                            <li><a class="dropdown-item" href="#design-services">
+                                <i class="bi bi-palette me-2"></i>Interior Design
+                            </a></li>
+                            <li><a class="dropdown-item" href="#media-services">
+                                <i class="bi bi-camera-video me-2"></i>Multimedia Production
+                            </a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Blog - New Item -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">
+                            <i class="bi bi-journal-text me-1"></i>Blog
+                        </a>
+                    </li>
+
+                    <!-- Inquiries -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inquiries">
+                            <i class="bi bi-chat-dots me-1"></i>Inquiries
+                        </a>
+                    </li>
+
+                    <!-- FAQs -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">
+                            <i class="bi bi-question-circle me-1"></i>FAQs
+                        </a>
+                    </li>
+
+                    <!-- Enroll Now - Far Right -->
+                    <li class="nav-item">
+                        <a class="nav-link enroll-highlight" href="#enroll">
+                            <i class="bi bi-pencil-square me-1"></i>Enroll Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 
 <!-- ======== HERO WITH CAROUSEL SECTION ======== -->
@@ -249,10 +293,87 @@
   </div>
 </section>
 
-
-
 <!-- Local Bootstrap JS -->
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
 
+<!-- Theme Switcher JS -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const themeOptions = document.querySelectorAll('.theme-option');
+    const body = document.body;
+    const html = document.documentElement;
+    
+    // Load saved theme or default to light
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+    
+    // Theme switcher functionality
+    themeOptions.forEach(option => {
+        option.addEventListener('click', function(e) {
+            e.preventDefault();
+            const theme = this.getAttribute('data-theme');
+            setTheme(theme);
+            localStorage.setItem('theme', theme);
+        });
+    });
+    
+    function setTheme(theme) {
+        // Remove all theme classes
+        body.classList.remove('theme-light', 'theme-dark', 'theme-auto');
+        html.classList.remove('theme-light', 'theme-dark', 'theme-auto');
+        
+        // Handle auto theme
+        if (theme === 'auto') {
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                body.classList.add('theme-dark');
+                html.classList.add('theme-dark');
+            } else {
+                body.classList.add('theme-light');
+                html.classList.add('theme-light');
+            }
+        } else {
+            body.classList.add(`theme-${theme}`);
+            html.classList.add(`theme-${theme}`);
+        }
+        
+        // Update theme attribute
+        body.setAttribute('data-theme', theme);
+        html.setAttribute('data-theme', theme);
+        
+        // Update active theme indicator
+        updateActiveTheme(theme);
+        
+        // Apply theme to all elements
+        applyThemeToAllElements(theme);
+    }
+    
+    function updateActiveTheme(theme) {
+        themeOptions.forEach(option => {
+            const optionTheme = option.getAttribute('data-theme');
+            if (optionTheme === theme) {
+                option.classList.add('active-theme');
+            } else {
+                option.classList.remove('active-theme');
+            }
+        });
+    }
+    
+    function applyThemeToAllElements(theme) {
+        // Apply theme to all sections and components
+        const allElements = document.querySelectorAll('*');
+        allElements.forEach(element => {
+            element.setAttribute('data-theme', theme);
+        });
+    }
+    
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        if (localStorage.getItem('theme') === 'auto') {
+            setTheme('auto');
+        }
+    });
+});
+</script>
+
+</body>
 </html>
