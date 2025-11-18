@@ -426,452 +426,491 @@
         </div>
 
         <!-- Information Technology Services -->
-        <div class="service-category mb-5">
+        <div id="it-services" class="service-category mb-5">
             <h3 class="category-title text-center mb-4">
                 <i class="bi bi-laptop text-gold me-2"></i>Information Technology
             </h3>
-            <div class="row g-4">
-                <!-- Website Design -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/web-design.jpg" alt="Website Design & Development" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-code-square"></i>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Website Design & Development</h4>
-                            <p class="service-price">KES 15,000 <small>+ KES 2,500/month maintenance</small></p>
-                            <p class="service-description">
-                                Custom responsive websites built with modern technologies. Get a professional online presence that converts visitors into customers with mobile-first design.
-                            </p>
-                            <ul class="service-features">
-                                <li>Mobile-optimized responsive design</li>
-                                <li>SEO-friendly structure</li>
-                                <li>Fast loading speeds</li>
-                                <li>Ongoing technical support</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
+            <div id="itCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#itCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#itCarousel" data-bs-slide-to="1"></button>
                 </div>
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <!-- Website Design -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/web-design.jpg" alt="Website Design & Development" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-code-square"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Website Design & Development</h4>
+                                        <p class="service-price">KES 15,000 <small>+ KES 2,500/month maintenance</small></p>
+                                        <p class="service-description">
+                                            Custom responsive websites built with modern technologies. Get a professional online presence that converts visitors into customers with mobile-first design.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Mobile-optimized responsive design</li>
+                                            <li>SEO-friendly structure</li>
+                                            <li>Fast loading speeds</li>
+                                            <li>Ongoing technical support</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Website Design & Development', 'KES 15,000 + KES 2,500/month maintenance', 'Flexible duration based on project scope')">Enroll Now</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Search Engine Optimization -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/seo.jpg" alt="Search Engine Optimization" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-search"></i>
+                            <!-- Search Engine Optimization -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/seo.jpg" alt="Search Engine Optimization" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-search"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Search Engine Optimization</h4>
+                                        <p class="service-price">KES 1,500 <small>per month</small></p>
+                                        <p class="service-description">
+                                            Dominate search rankings and drive organic traffic to your website. Our data-driven SEO strategies deliver measurable results.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Keyword research & optimization</li>
+                                            <li>Technical SEO audit</li>
+                                            <li>Content strategy development</li>
+                                            <li>Monthly performance reports</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Search Engine Optimization', 'KES 1,500 per month', 'Ongoing monthly service')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Search Engine Optimization</h4>
-                            <p class="service-price">KES 1,500 <small>per month</small></p>
-                            <p class="service-description">
-                                Dominate search rankings and drive organic traffic to your website. Our data-driven SEO strategies deliver measurable results.
-                            </p>
-                            <ul class="service-features">
-                                <li>Keyword research & optimization</li>
-                                <li>Technical SEO audit</li>
-                                <li>Content strategy development</li>
-                                <li>Monthly performance reports</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- IT Consultation -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/it-consultation.jpg" alt="IT Consultation" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-gear"></i>
+                            <!-- IT Consultation -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/it-consultation.jpg" alt="IT Consultation" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-gear"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">IT Consultation</h4>
+                                        <p class="service-price">KES 2,000 <small>per session</small></p>
+                                        <p class="service-description">
+                                            Expert guidance to optimize your digital infrastructure. Get personalized solutions for your specific business challenges.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Technology stack assessment</li>
+                                            <li>Digital transformation strategy</li>
+                                            <li>Workflow optimization</li>
+                                            <li>Cost-benefit analysis</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('IT Consultation', 'KES 2,000 per session', '1-2 hours per session')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="service-content">
-                            <h4 class="service-title">IT Consultation</h4>
-                            <p class="service-price">KES 2,000 <small>per session</small></p>
-                            <p class="service-description">
-                                Expert guidance to optimize your digital infrastructure. Get personalized solutions for your specific business challenges.
-                            </p>
-                            <ul class="service-features">
-                                <li>Technology stack assessment</li>
-                                <li>Digital transformation strategy</li>
-                                <li>Workflow optimization</li>
-                                <li>Cost-benefit analysis</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
                     </div>
-                </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <!-- AI Integration -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/ai-integration.jpg" alt="AI Integration" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-robot"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">AI Integration</h4>
+                                        <p class="service-price">KES 5,000 <small>per AI Chatbot</small></p>
+                                        <p class="service-description">
+                                            Implement intelligent AI solutions that automate customer service and enhance user engagement. 24/7 automated support for your business.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Custom AI chatbot development</li>
+                                            <li>Natural language processing</li>
+                                            <li>Multi-platform integration</li>
+                                            <li>Training & deployment support</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('AI Integration', 'KES 5,000 per AI Chatbot', '2-4 weeks implementation')">Enroll Now</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- AI Integration -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/ai-integration.jpg" alt="AI Integration" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-robot"></i>
+                            <!-- Digital Marketing -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/digital-marketing.jpg" alt="Digital Marketing" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-megaphone"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Digital Marketing</h4>
+                                        <p class="service-price">KES 2,500 <small>per month</small></p>
+                                        <p class="service-description">
+                                            Comprehensive digital marketing strategies to grow your brand awareness and drive qualified leads to your business.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Social media management</li>
+                                            <li>Content marketing strategy</li>
+                                            <li>Email campaign management</li>
+                                            <li>Performance analytics</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Digital Marketing', 'KES 2,500 per month', 'Ongoing monthly service')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">AI Integration</h4>
-                            <p class="service-price">KES 5,000 <small>per AI Chatbot</small></p>
-                            <p class="service-description">
-                                Implement intelligent AI solutions that automate customer service and enhance user engagement. 24/7 automated support for your business.
-                            </p>
-                            <ul class="service-features">
-                                <li>Custom AI chatbot development</li>
-                                <li>Natural language processing</li>
-                                <li>Multi-platform integration</li>
-                                <li>Training & deployment support</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Digital Marketing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/digital-marketing.jpg" alt="Digital Marketing" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-megaphone"></i>
+                            <!-- Prompt Engineering -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/prompt-engineering.jpg" alt="Prompt Engineering" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-magic"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Prompt Engineering & AI Tools</h4>
+                                        <p class="service-price">KES 5,000 <small>1 month duration</small></p>
+                                        <p class="service-description">
+                                            Master the art of AI communication. Learn to craft effective prompts that unlock the full potential of AI tools for maximum productivity.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Advanced prompt crafting techniques</li>
+                                            <li>AI tool optimization strategies</li>
+                                            <li>Workflow automation setup</li>
+                                            <li>Custom AI solution development</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Prompt Engineering & AI Tools', 'KES 5,000', '1 month duration')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Digital Marketing</h4>
-                            <p class="service-price">KES 2,500 <small>per month</small></p>
-                            <p class="service-description">
-                                Comprehensive digital marketing strategies to grow your brand awareness and drive qualified leads to your business.
-                            </p>
-                            <ul class="service-features">
-                                <li>Social media management</li>
-                                <li>Content marketing strategy</li>
-                                <li>Email campaign management</li>
-                                <li>Performance analytics</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Prompt Engineering -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/prompt-engineering.jpg" alt="Prompt Engineering" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-magic"></i>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Prompt Engineering & AI Tools</h4>
-                            <p class="service-price">KES 5,000 <small>1 month duration</small></p>
-                            <p class="service-description">
-                                Master the art of AI communication. Learn to craft effective prompts that unlock the full potential of AI tools for maximum productivity.
-                            </p>
-                            <ul class="service-features">
-                                <li>Advanced prompt crafting techniques</li>
-                                <li>AI tool optimization strategies</li>
-                                <li>Workflow automation setup</li>
-                                <li>Custom AI solution development</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CV Writing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/cv-writing.jpg" alt="Professional CV Writing" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-file-earmark-person"></i>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Professional CV Writing</h4>
-                            <p class="service-price">KES 1,500 <small>per CV</small></p>
-                            <p class="service-description">
-                                Stand out in the competitive job market with a professionally crafted CV that highlights your unique strengths and achievements.
-                            </p>
-                            <ul class="service-features">
-                                <li>ATS-optimized formatting</li>
-                                <li>Industry-specific templates</li>
-                                <li>Achievement-focused content</li>
-                                <li>Unlimited revisions</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#itCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#itCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
 
         <!-- Multimedia Production Services -->
-        <div class="service-category mb-5">
+        <div id="media-services" class="service-category mb-5">
             <h3 class="category-title text-center mb-4">
                 <i class="bi bi-camera-video text-gold me-2"></i>Multimedia Production
             </h3>
-            <div class="row g-4">
-                <!-- Video Editing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/video-editing.jpg" alt="Premium Video Editing" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-film"></i>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Premium Video Editing Mastery</h4>
-                            <p class="service-price">KES 30,000 <small>3 months duration</small></p>
-                            <p class="service-enroll">Enrollment: January 2026</p>
-                            <p class="service-description">
-                                Master professional video editing with industry-standard software suite. Transform raw footage into cinematic masterpieces.
-                            </p>
-                            <ul class="service-features">
-                                <li>Adobe Premiere Pro expertise</li>
-                                <li>Adobe After Effects animation</li>
-                                <li>Final Cut Pro workflow</li>
-                                <li>DaVinci Resolve color grading</li>
-                                <li>Real project portfolio building</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
+            <div id="mediaCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mediaCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mediaCarousel" data-bs-slide-to="1"></button>
                 </div>
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <!-- Video Editing -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/video-editing.jpg" alt="Premium Video Editing" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-film"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Premium Video Editing Mastery</h4>
+                                        <p class="service-price">KES 30,000 <small>3 months duration</small></p>
+                                        <p class="service-enroll">Enrollment: January 2026</p>
+                                        <p class="service-description">
+                                            Master professional video editing with industry-standard software suite. Transform raw footage into cinematic masterpieces.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Adobe Premiere Pro expertise</li>
+                                            <li>Adobe After Effects animation</li>
+                                            <li>Final Cut Pro workflow</li>
+                                            <li>DaVinci Resolve color grading</li>
+                                            <li>Real project portfolio building</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Premium Video Editing Mastery', 'KES 30,000', '3 months duration')">Enroll Now</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Photo Editing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/photo-editing.jpg" alt="Professional Photo Editing" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-image"></i>
+                            <!-- Photo Editing -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/photo-editing.jpg" alt="Professional Photo Editing" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-image"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Professional Photo Editing</h4>
+                                        <p class="service-price">KES 7,000 <small>1 month duration</small></p>
+                                        <p class="service-description">
+                                            Transform ordinary photos into extraordinary visual stories. Master Adobe Lightroom with professional LUTs and presets included.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Adobe Lightroom mastery</li>
+                                            <li>Professional LUTs collection</li>
+                                            <li>Color grading techniques</li>
+                                            <li>Batch processing workflows</li>
+                                            <li>Portrait enhancement skills</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Professional Photo Editing', 'KES 7,000', '1 month duration')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Professional Photo Editing</h4>
-                            <p class="service-price">KES 7,000 <small>1 month duration</small></p>
-                            <p class="service-description">
-                                Transform ordinary photos into extraordinary visual stories. Master Adobe Lightroom with professional LUTs and presets included.
-                            </p>
-                            <ul class="service-features">
-                                <li>Adobe Lightroom mastery</li>
-                                <li>Professional LUTs collection</li>
-                                <li>Color grading techniques</li>
-                                <li>Batch processing workflows</li>
-                                <li>Portrait enhancement skills</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Content Creation -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/content-creation.jpg" alt="Content Creation Mastery" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-play-btn"></i>
+                            <!-- Content Creation -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/content-creation.jpg" alt="Content Creation Mastery" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-play-btn"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Content Creation Mastery</h4>
+                                        <p class="service-price">KES 20,000 <small>3 months duration</small></p>
+                                        <p class="service-description">
+                                            Create engaging content that captivates audiences and builds loyal communities across multiple platforms.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Content strategy development</li>
+                                            <li>Platform-specific optimization</li>
+                                            <li>Audience engagement techniques</li>
+                                            <li>Viral content creation</li>
+                                            <li>Analytics and performance tracking</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Content Creation Mastery', 'KES 20,000', '3 months duration')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Content Creation Mastery</h4>
-                            <p class="service-price">KES 20,000 <small>3 months duration</small></p>
-                            <p class="service-description">
-                                Create engaging content that captivates audiences and builds loyal communities across multiple platforms.
-                            </p>
-                            <ul class="service-features">
-                                <li>Content strategy development</li>
-                                <li>Platform-specific optimization</li>
-                                <li>Audience engagement techniques</li>
-                                <li>Viral content creation</li>
-                                <li>Analytics and performance tracking</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
                     </div>
-                </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <!-- Production & Directing -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/production-directing.jpg" alt="Production & Video Directing" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-camera-reels"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Production & Video Directing</h4>
+                                        <p class="service-price">KES 35,000 <small>3 months duration</small></p>
+                                        <p class="service-description">
+                                            Hands-on training with real live projects including weddings, live streams, and professional photoshoots. Learn from actual production scenarios.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Live event coverage experience</li>
+                                            <li>Multi-camera setup management</li>
+                                            <li>Client communication skills</li>
+                                            <li>Production team coordination</li>
+                                            <li>Portfolio development</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Production & Video Directing', 'KES 35,000', '3 months duration')">Enroll Now</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Production & Directing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/production-directing.jpg" alt="Production & Video Directing" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-camera-reels"></i>
+                            <!-- Audio Production -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/audio-production.jpg" alt="Master Audio Production" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-music-note-beamed"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Master Audio Production</h4>
+                                        <p class="service-price">KES 15,000 <small>3 months duration</small></p>
+                                        <p class="service-description">
+                                            Professional audio production training using Adobe Audition. Create crystal-clear audio for videos, podcasts, and music production.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Adobe Audition expertise</li>
+                                            <li>Noise reduction techniques</li>
+                                            <li>Audio mixing and mastering</li>
+                                            <li>Sound design principles</li>
+                                            <li>Podcast production workflow</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Master Audio Production', 'KES 15,000', '3 months duration')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Production & Video Directing</h4>
-                            <p class="service-price">KES 35,000 <small>3 months duration</small></p>
-                            <p class="service-description">
-                                Hands-on training with real live projects including weddings, live streams, and professional photoshoots. Learn from actual production scenarios.
-                            </p>
-                            <ul class="service-features">
-                                <li>Live event coverage experience</li>
-                                <li>Multi-camera setup management</li>
-                                <li>Client communication skills</li>
-                                <li>Production team coordination</li>
-                                <li>Portfolio development</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Audio Production -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/audio-production.jpg" alt="Master Audio Production" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-music-note-beamed"></i>
+                            <!-- Script Writing -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/script-writing.jpg" alt="Professional Script Writing" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-pencil-square"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Professional Script Writing</h4>
+                                        <p class="service-price">KES 20,000 <small>2 months duration</small></p>
+                                        <p class="service-description">
+                                            Craft compelling narratives that engage audiences and drive action. Learn the art of storytelling for various media formats.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Story structure development</li>
+                                            <li>Character creation techniques</li>
+                                            <li>Dialogue writing skills</li>
+                                            <li>Format-specific scripting</li>
+                                            <li>Pitching and presentation</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Professional Script Writing', 'KES 20,000', '2 months duration')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Master Audio Production</h4>
-                            <p class="service-price">KES 15,000 <small>3 months duration</small></p>
-                            <p class="service-description">
-                                Professional audio production training using Adobe Audition. Create crystal-clear audio for videos, podcasts, and music production.
-                            </p>
-                            <ul class="service-features">
-                                <li>Adobe Audition expertise</li>
-                                <li>Noise reduction techniques</li>
-                                <li>Audio mixing and mastering</li>
-                                <li>Sound design principles</li>
-                                <li>Podcast production workflow</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Script Writing -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/script-writing.jpg" alt="Professional Script Writing" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-pencil-square"></i>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Professional Script Writing</h4>
-                            <p class="service-price">KES 20,000 <small>2 months duration</small></p>
-                            <p class="service-description">
-                                Craft compelling narratives that engage audiences and drive action. Learn the art of storytelling for various media formats.
-                            </p>
-                            <ul class="service-features">
-                                <li>Story structure development</li>
-                                <li>Character creation techniques</li>
-                                <li>Dialogue writing skills</li>
-                                <li>Format-specific scripting</li>
-                                <li>Pitching and presentation</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mediaCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mediaCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
 
         <!-- Interior Design Services -->
-        <div class="service-category">
+        <div id="design-services" class="service-category">
             <h3 class="category-title text-center mb-4">
                 <i class="bi bi-house-door text-gold me-2"></i>Interior Design
             </h3>
-            <div class="row g-4">
-                <!-- Space Planning -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/space-planning.jpg" alt="Space Planning & Optimization" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-aspect-ratio"></i>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Space Planning & Optimization</h4>
-                            <p class="service-price">KES 15,000 <small>per service</small></p>
-                            <p class="service-description">
-                                Maximize your space potential with intelligent layout designs that enhance functionality while maintaining aesthetic appeal.
-                            </p>
-                            <ul class="service-features">
-                                <li>Custom space analysis</li>
-                                <li>Traffic flow optimization</li>
-                                <li>Furniture layout planning</li>
-                                <li>Storage solution integration</li>
-                                <li>Client preference integration</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
+            <div id="designCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#designCarousel" data-bs-slide-to="0" class="active"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <!-- Space Planning -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/space-planning.jpg" alt="Space Planning & Optimization" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-aspect-ratio"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Space Planning & Optimization</h4>
+                                        <p class="service-price">KES 15,000 <small>per service</small></p>
+                                        <p class="service-description">
+                                            Maximize your space potential with intelligent layout designs that enhance functionality while maintaining aesthetic appeal.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Custom space analysis</li>
+                                            <li>Traffic flow optimization</li>
+                                            <li>Furniture layout planning</li>
+                                            <li>Storage solution integration</li>
+                                            <li>Client preference integration</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Space Planning & Optimization', 'KES 15,000 per service', '1-2 weeks completion')">Enroll Now</button>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Floor Plan Design -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/floor-plan.jpg" alt="Floor Plan Design" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-grid-3x3-gap"></i>
+                            <!-- Floor Plan Design -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/floor-plan.jpg" alt="Floor Plan Design" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-grid-3x3-gap"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Floor Plan Design</h4>
+                                        <p class="service-price">KES 15,000 <small>per service</small></p>
+                                        <p class="service-description">
+                                            Professional floor plan designs that bring your vision to life while ensuring practical functionality and compliance with building standards.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>2D/3D floor plan creation</li>
+                                            <li>Building code compliance</li>
+                                            <li>Accessibility considerations</li>
+                                            <li>Multiple layout options</li>
+                                            <li>Client-centered design approach</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Floor Plan Design', 'KES 15,000 per service', '1-2 weeks completion')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Floor Plan Design</h4>
-                            <p class="service-price">KES 15,000 <small>per service</small></p>
-                            <p class="service-description">
-                                Professional floor plan designs that bring your vision to life while ensuring practical functionality and compliance with building standards.
-                            </p>
-                            <ul class="service-features">
-                                <li>2D/3D floor plan creation</li>
-                                <li>Building code compliance</li>
-                                <li>Accessibility considerations</li>
-                                <li>Multiple layout options</li>
-                                <li>Client-centered design approach</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Color Theme Selection -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card">
-                        <div class="service-image">
-                            <img src="static/images/services/color-theme.jpg" alt="Color Theme Selection" class="img-fluid">
-                            <div class="service-icon">
-                                <i class="bi bi-palette"></i>
+                            <!-- Color Theme Selection -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-card">
+                                    <div class="service-image">
+                                        <img src="static/images/services/color-theme.jpg" alt="Color Theme Selection" class="img-fluid">
+                                        <div class="service-icon">
+                                            <i class="bi bi-palette"></i>
+                                        </div>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title">Color Theme Selection</h4>
+                                        <p class="service-price">KES 15,000 <small>per service</small></p>
+                                        <p class="service-description">
+                                            Create harmonious color schemes that reflect your personality and enhance the mood of your space. Your preferences guide our palette.
+                                        </p>
+                                        <ul class="service-features">
+                                            <li>Personalized color analysis</li>
+                                            <li>Mood and atmosphere creation</li>
+                                            <li>Lighting consideration</li>
+                                            <li>Color psychology application</li>
+                                            <li>"Client is always right" approach</li>
+                                        </ul>
+                                        <button class="btn btn-gold w-100" onclick="openEnrollmentForm('Color Theme Selection', 'KES 15,000 per service', '1-2 weeks completion')">Enroll Now</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="service-title">Color Theme Selection</h4>
-                            <p class="service-price">KES 15,000 <small>per service</small></p>
-                            <p class="service-description">
-                                Create harmonious color schemes that reflect your personality and enhance the mood of your space. Your preferences guide our palette.
-                            </p>
-                            <ul class="service-features">
-                                <li>Personalized color analysis</li>
-                                <li>Mood and atmosphere creation</li>
-                                <li>Lighting consideration</li>
-                                <li>Color psychology application</li>
-                                <li>"Client is always right" approach</li>
-                            </ul>
-                            <a href="#contact" class="btn btn-gold w-100">Enroll Now</a>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#designCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#designCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
