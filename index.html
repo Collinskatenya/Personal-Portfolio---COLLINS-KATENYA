@@ -1121,6 +1121,158 @@
     </div>
 </section>
 
+<!-- ===== PORTFOLIO CAROUSEL SECTION ===== -->
+<section id="portfolio" class="portfolio-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A showcase of innovation in Tech, Design, and Cinematography</p>
+        </div>
+
+        <!-- Added data-bs-pause="hover" to stop sliding when user hovers -->
+        <div id="portfolioCarousel" class="carousel slide portfolio-carousel" data-bs-ride="carousel" data-bs-pause="hover">
+            
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="IT Projects"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Interior Design"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Media Projects"></button>
+            </div>
+
+            <div class="carousel-inner">
+                
+                <!-- Slide 1: IT Projects (AgriPamoja) - 15 Seconds Duration -->
+                <div class="carousel-item active" id="it-projects-slide" data-bs-interval="15000">
+                    <div class="portfolio-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-lg-7">
+                                <div class="portfolio-thumb">
+                                    <img src="static/images/portfolio/agripamoja.jpg" onerror="this.src='https://placehold.co/800x500/28a745/ffffff?text=AgriPamoja+Platform'" alt="AgriPamoja Dashboard" class="img-fluid w-100">
+                                    <div class="portfolio-overlay">
+                                        <span class="badge bg-success">Agritech</span>
+                                        <span class="badge bg-dark">Web App</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="portfolio-content">
+                                    <div class="project-icon">
+                                        <i class="bi bi-laptop text-gold"></i>
+                                    </div>
+                                    <h3 class="portfolio-title">AgriPamoja Digital Platform</h3>
+                                    <p class="portfolio-desc">
+                                        A revolutionary digital agritech platform connecting farmers, buyers, and agripreneurs. We empower the agricultural community through technology, knowledge sharing, and direct market access.
+                                    </p>
+                                    <ul class="portfolio-features">
+                                        <li><i class="bi bi-check2-circle text-gold"></i> Real-time Market Access</li>
+                                        <li><i class="bi bi-check2-circle text-gold"></i> Farmer Collaboration Hub</li>
+                                        <li><i class="bi bi-check2-circle text-gold"></i> Knowledge Sharing</li>
+                                    </ul>
+                                    <a href="https://collinskatenya.github.io/AgriPamoja/" target="_blank" class="btn btn-gold mt-4">
+                                        View Live Project <i class="bi bi-arrow-up-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Interior Design (Tire Furniture) - 15 Seconds Duration -->
+                <div class="carousel-item" id="design-works-slide" data-bs-interval="15000">
+                    <div class="portfolio-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-lg-7">
+                                <div class="portfolio-thumb">
+                                    <img src="static/images/portfolio/tire-furniture.jpg" onerror="this.src='https://placehold.co/800x500/5a4a42/ffffff?text=Eco+Tire+Furniture'" alt="Custom Tire Table" class="img-fluid w-100">
+                                    <div class="portfolio-overlay">
+                                        <span class="badge bg-warning text-dark">Upcycling</span>
+                                        <span class="badge bg-dark">Interior Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="portfolio-content">
+                                    <div class="project-icon">
+                                        <i class="bi bi-brush text-gold"></i>
+                                    </div>
+                                    <h3 class="portfolio-title">Eco-Chic Tire Furniture</h3>
+                                    <p class="portfolio-desc">
+                                        Sustainable innovation meets modern aesthetics. This bespoke coffee table is crafted from recycled vehicle tires, featuring a high-gloss ergonomic finish that transforms waste into a functional masterpiece.
+                                    </p>
+                                    <ul class="portfolio-features">
+                                        <li><i class="bi bi-check2-circle text-gold"></i> 100% Recycled Materials</li>
+                                        <li><i class="bi bi-check2-circle text-gold"></i> Ergonomic & Child-Safe</li>
+                                        <li><i class="bi bi-check2-circle text-gold"></i> Custom Weatherproof Paint</li>
+                                    </ul>
+                                    <button class="btn btn-outline-gold mt-4" data-bs-toggle="modal" data-bs-target="#enrollmentModal">
+                                        Inquire Custom Order
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Media Projects (Yolanda) - 15 Seconds Duration -->
+                <div class="carousel-item" id="media-projects-slide" data-bs-interval="15000">
+                    <div class="portfolio-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-lg-7">
+                                <div class="portfolio-thumb">
+                                    <img src="static/images/portfolio/yolanda-film.jpg" onerror="this.src='https://placehold.co/800x500/000000/d4af37?text=Short+Film:+YOLANDA'" alt="Yolanda Short Film" class="img-fluid w-100">
+                                    <!-- Play Icon Overlay -->
+                                    <a href="https://youtu.be/Lvw-BDfjMiE?si=IFpZ0E0E5HzHYKdD" target="_blank" class="portfolio-play-btn">
+                                        <i class="bi bi-play-circle-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="portfolio-content">
+                                    <div class="project-icon">
+                                        <i class="bi bi-film text-gold"></i>
+                                    </div>
+                                    <h3 class="portfolio-title">Short Film: YOLANDA</h3>
+                                    <div class="film-credits mb-3">
+                                        <div class="credit-item">
+                                            <span class="role">Director:</span>
+                                            <span class="name">Collins Katenya</span>
+                                        </div>
+                                        <div class="credit-item">
+                                            <span class="role">Script Writer:</span>
+                                            <span class="name">Geoffrey Muyera</span>
+                                        </div>
+                                        <div class="credit-item">
+                                            <span class="role">Cast:</span>
+                                            <span class="name">June Jelegat</span>
+                                        </div>
+                                    </div>
+                                    <p class="portfolio-desc">
+                                        A compelling visual narrative exploring themes of resilience and identity. This production showcases advanced cinematography, directing, and storytelling techniques.
+                                    </p>
+                                    <a href="https://youtu.be/Lvw-BDfjMiE?si=IFpZ0E0E5HzHYKdD" target="_blank" class="btn btn-gold mt-2">
+                                        <i class="bi bi-youtube me-2"></i>Watch Short Film
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Navigation Controls -->
+            <button class="carousel-control-prev blog-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next blog-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
 <!-- ===== BLOG & TUTORIALS CAROUSEL SECTION ===== -->
 <section id="blog" class="blog-section py-5">
     <div class="container">
@@ -1425,6 +1577,39 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// ===== PORTFOLIO NAVIGATION LOGIC =====
+    // This listens for clicks on the navbar portfolio dropdown items
+    const portfolioLinks = {
+        '#it-projects': 0,      // Slide index for AgriPamoja
+        '#design-works': 1,     // Slide index for Furniture
+        '#media-projects': 2    // Slide index for Short Film
+    };
+
+    const portfolioCarousel = document.getElementById('portfolioCarousel');
+    const bsPortfolioCarousel = new bootstrap.Carousel(portfolioCarousel, {
+        interval: false // Disable auto-sliding so users can read
+    });
+
+    // Add click events to navbar links
+    document.querySelectorAll('.dropdown-item').forEach(link => {
+        const href = link.getAttribute('href');
+        if (portfolioLinks.hasOwnProperty(href)) {
+            link.addEventListener('click', function(e) {
+                // 1. Scroll to the portfolio section smoothly
+                const section = document.querySelector('#portfolio');
+                if (section) {
+                    // Slight delay to allow smooth scroll to start
+                    setTimeout(() => {
+                        section.scrollIntoView({ behavior: 'smooth' });
+                    }, 100);
+                }
+
+                // 2. Slide the carousel to the correct index
+                bsPortfolioCarousel.to(portfolioLinks[href]);
+            });
+        }
+    });
 </script>
 
 </body>
